@@ -6,7 +6,9 @@ const shopStore = useShopStore()
 </script>
 
 <template>
-<product-card v-for="product in shopStore.products" :key="product.id" :product="product" />
+  <div class="content">
+    <product-card v-for="product in shopStore.products" :key="product.id" :product="product" />
+  </div>
 </template>
 
 <style lang="scss">

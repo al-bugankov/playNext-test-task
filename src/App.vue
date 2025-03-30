@@ -1,16 +1,14 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import OrderForm from '@/components/order-form/components/OrderForm.vue'
-
+import ProjectHeader from '@/components/project-header/components/ProjectHeader.vue'
 </script>
 
 <template>
   <header>
+    <project-header />
   </header>
-<order-form />
-  <RouterView />
+    <RouterView />
 </template>
 
 <style>
-
 </style>

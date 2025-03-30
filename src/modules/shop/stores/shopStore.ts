@@ -11,13 +11,13 @@ export const useShopStore = defineStore('shopStore', {
         description: 'Вьетнамский багет с начинкой...',
         specs: [
           { key: 'Сытость', value: '+10' },
-          { key: 'Количество крошек на клавиатуре', value: 'максимальное' },
-          { key: 'Можно заказать', value: 'да' }
+          { key: 'Количество крошек на клавиатуре', value: 'Максимальное' },
+          { key: 'Можно заказать', value: 'Да' }
         ],
         images: [
-          '@/assets/images/banhmi1.webp',
-          '@/assets/images/banhmi2.webp',
-          '@/assets/images/banhmi3.webp'
+          '/src/assets/images/BanhMi/banhmi1.webp',
+          '/src/assets/images/BanhMi/banhmi2.webp',
+          '/src/assets/images/BanhMi/banhmi3.webp'
         ]
       },
       {
@@ -27,13 +27,13 @@ export const useShopStore = defineStore('shopStore', {
         description: 'Крепкий вьетнамский чёрный кофе.',
         specs: [
           { key: 'Желание жить по утрам', value: '+5' },
-          { key: 'Крепость', value: 'максимальная' },
-          { key: 'Можно заказать', value: 'да' }
+          { key: 'Крепость', value: 'Максимальная' },
+          { key: 'Можно заказать', value: 'Да' }
         ],
         images: [
-          '@/assets/images/cafeden1.webp',
-          '@/assets/images/cafeden2.webp',
-          '@/assets/images/cafeden3.webp'
+          '/src/assets/images/CafeDen/cafeden1.webp',
+          '/src/assets/images/CafeDen/cafeden2.webp',
+          '/src/assets/images/CafeDen/cafeden3.webp'
         ]
       },
       {
@@ -42,15 +42,15 @@ export const useShopStore = defineStore('shopStore', {
         price: 15000,
         description: 'Сладкий вьетнамский кофе с сгущёнкой.',
         specs: [
-          { key: 'Жить по утрам', value: '+5' },
+          { key: 'Желание жить по утрам', value: '+5' },
           { key: 'Делает жизнь слаще', value: '100%' },
-          { key: 'Холодный', value: 'как сердце бывшей' },
-          { key: 'Можно заказать', value: 'да' }
+          { key: 'Холодный', value: 'Как сердце бывшей' },
+          { key: 'Можно заказать', value: 'Да' }
         ],
         images: [
-          '@/assets/images/cafesua1.webp',
-          '@/assets/images/cafesua2.webp',
-          '@/assets/images/cafesua3.webp'
+          '/src/assets/images/CafeSua/cafesua1.webp',
+          '/src/assets/images/CafeSua/cafesua2.webp',
+          '/src/assets/images/CafeSua/cafesua3.webp'
         ]
       }
     ],
