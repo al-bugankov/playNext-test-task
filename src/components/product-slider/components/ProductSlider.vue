@@ -23,6 +23,7 @@ const setActiveButton = (button: HTMLElement) => {
     nextTick(() => {
       // Находим кнопку с тем же индексом
       const buttons = carousel.value?.$el.querySelectorAll('.v-carousel__controls__item')
+      if (!buttons) return
       const index = Array.from(buttons).findIndex(btn => btn === activeButton)
 
       if (index >= 0) {
