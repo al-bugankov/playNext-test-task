@@ -15,9 +15,9 @@ export const useShopStore = defineStore('shopStore', {
           { key: 'Можно заказать', value: 'Да' }
         ],
         images: [
-          '/src/assets/images/BanhMi/banhmi1.webp',
-          '/src/assets/images/BanhMi/banhmi2.webp',
-          '/src/assets/images/BanhMi/banhmi3.webp'
+          '/images/BanhMi/banhmi1.webp',
+          '/images/BanhMi/banhmi2.webp',
+          '/images/BanhMi/banhmi3.webp'
         ]
       },
       {
@@ -31,9 +31,9 @@ export const useShopStore = defineStore('shopStore', {
           { key: 'Можно заказать', value: 'Да' }
         ],
         images: [
-          '/src/assets/images/CafeDen/cafeden1.webp',
-          '/src/assets/images/CafeDen/cafeden2.webp',
-          '/src/assets/images/CafeDen/cafeden3.webp'
+          '/images/CafeDen/cafeden1.webp',
+          '/images/CafeDen/cafeden2.webp',
+          '/images/CafeDen/cafeden3.webp'
         ]
       },
       {
@@ -48,9 +48,9 @@ export const useShopStore = defineStore('shopStore', {
           { key: 'Можно заказать', value: 'Да' }
         ],
         images: [
-          '/src/assets/images/CafeSua/cafesua1.webp',
-          '/src/assets/images/CafeSua/cafesua2.webp',
-          '/src/assets/images/CafeSua/cafesua3.webp'
+          '/images/CafeSua/cafesua1.webp',
+          '/images/CafeSua/cafesua2.webp',
+          '/images/CafeSua/cafesua3.webp'
         ]
       }
     ],
